@@ -12,7 +12,7 @@ while continue == true
   answer = prompt.select("Generate inspiring quote?", %w(Yes No))
   if answer == "Yes"
     puts text
-    puts "-#{name}"
+    puts "--#{name}"
   else
     continue = false
   end
